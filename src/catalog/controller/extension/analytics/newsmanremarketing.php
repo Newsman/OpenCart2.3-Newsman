@@ -178,9 +178,9 @@ class ControllerExtensionAnalyticsNewsmanremarketing extends Controller
 
 
 
-		$endpoint = "https://retargeting.newsmanapp.com/js/retargeting/track.js";
+		$endpoint = "https://t.newsmanapp.com/jt/t.js";
 
-		$endpointHost = "https://retargeting.newsmanapp.com";
+		$endpointHost = "https://t.newsmanapp.com";
 
 		$domain = $_SERVER['SERVER_NAME'];
 	
@@ -226,8 +226,8 @@ class ControllerExtensionAnalyticsNewsmanremarketing extends Controller
 
         //Newsman remarketing tracking code  
 
-var endpoint = 'https://retargeting.newsmanapp.com';
-var remarketingEndpoint = endpoint + '/js/retargeting/track.js';
+var endpoint = 'https://t.newsmanapp.com';
+var remarketingEndpoint = endpoint + '/jt/t.js';
 
 var _nzm = _nzm || [];
 var _nzm_config = _nzm_config || [];
@@ -787,8 +787,8 @@ TAG;
 			
 					//Newsman remarketing tracking code  
 			
-					var endpoint = 'https://retargeting.newsmanapp.com';
-					var remarketingEndpoint = endpoint + '/js/retargeting/track.js';
+					var endpoint = 'https://t.newsmanapp.com';
+					var remarketingEndpoint = endpoint + '/jt/t.js';
 			
 					var _nzm = _nzm || [];
 					var _nzm_config = _nzm_config || [];
